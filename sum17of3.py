@@ -16,7 +16,7 @@
 #          + (2 c0 c5 + 2) x0 x5 + (2 c1 c2 + 2) x1 x2 + (2 c1 c3 + 2) x1 x3 + (2 c1 c4 + 2) x1 x4 + (2 c1 c5 + 2) x1 x5 + (2 c2 c3 + 2) x2 x3 + (2 c2 c4 + 2) x2 x4
 #          + (2 c2 c5 + 2) x2 x5 + (2 c3 c4 + 2) x3 x4 + (2 c3 c5 + 2) x3 x5 + (2 c4 c5 + 2) x4 x5
 # QUBO = min (- 38 x0 - 69 x1 - 150 x2 - 194 x3 - 245 x4 - 253 x5 + 6 x0 x1 + 12 x0 x2 + 14 x0 x3 + 22 x0 x4 + 24 x0 x5 + 22 x1 x2 + 30 x1 x3 + 42 x1 x4 + 46 x1 x5
-              + 72 x2 x3 + 102 x2 x4 + 112 x2 x5 + 142 x3 x4 + 156 x3 x5 + 222 x4 x5
+#             + 72 x2 x3 + 102 x2 x4 + 112 x2 x5 + 142 x3 x4 + 156 x3 x5 + 222 x4 x5
 # runs on the exact solver
 # import
 import dimod
