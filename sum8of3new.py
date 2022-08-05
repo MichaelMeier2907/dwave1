@@ -6,7 +6,6 @@
 import dimod
 from dwave.system import EmbeddingComposite, DWaveSampler
 from dimod import BinaryQuadraticModel
-from varype import BINARY
 # define obj as quadratic model 
 # BinaryQuadraticModel obj
 obj = BinaryQuadraticModel(vartype = 'BINARY')
